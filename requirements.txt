@@ -1,0 +1,26 @@
+# Orchestration
+langgraph>=0.2
+langchain>=0.3
+langchain-core>=0.3
+langchain-anthropic>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+
+# RAG
+chromadb>=0.5
+sentence-transformers>=3.0
+pypdf>=4.0
+
+# Tools
+ddgs>=6.0
+
+# API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.8
+pydantic-settings>=2.4
+
+# Eval / quality
+pytest>=8.0
+ruff>=0.6
+numpy
